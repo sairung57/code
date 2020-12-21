@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int i=0;
+	while(i != 2){
+	printf("Select Menu");
+	printf("\n(1) Hello");
+	printf("\n(2) End");
+	printf("\nInsert Number : ");
+	scanf("%d", &i);
+	if (i == 1){
+		printf("\n Hello \n");
+		getch();
+	}
+}
+	return 0;
+}
